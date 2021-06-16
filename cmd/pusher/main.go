@@ -17,7 +17,11 @@ func main() {
 	defer c.Close()
 
 	t := tasks.NewExpireOrderTask("saga-1")
-	res, err := c.Enqueue(t, asynq.ProcessIn(10*time.Second), asynq.Timeout(5*time.Second))
+	options := []asynq.Option{
+		asynq.ProcessIn(10 * time.Second),
+		asynq.Timeout(5 * time.Second),
+	}
+	res, err := c.Enqueue(t, options...)
 	if err != nil {
 		fmt.Printf("could not enqueue task: %v", err)
 	}
