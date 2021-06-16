@@ -1,0 +1,27 @@
+# github.com/go-redis/redis/v7 v7.4.0
+github.com/go-redis/redis/v7
+github.com/go-redis/redis/v7/internal
+github.com/go-redis/redis/v7/internal/consistenthash
+github.com/go-redis/redis/v7/internal/hashtag
+github.com/go-redis/redis/v7/internal/pool
+github.com/go-redis/redis/v7/internal/proto
+github.com/go-redis/redis/v7/internal/util
+# github.com/google/go-cmp v0.5.5
+## explicit
+# github.com/google/uuid v1.1.1
+github.com/google/uuid
+# github.com/hibiken/asynq v0.17.2
+## explicit
+github.com/hibiken/asynq
+github.com/hibiken/asynq/internal/base
+github.com/hibiken/asynq/internal/log
+github.com/hibiken/asynq/internal/rdb
+# github.com/robfig/cron/v3 v3.0.1
+github.com/robfig/cron/v3
+# github.com/spf13/cast v1.3.1
+github.com/spf13/cast
+# golang.org/x/sys v0.0.0-20191204072324-ce4227a45e2e
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
+golang.org/x/time/rate
